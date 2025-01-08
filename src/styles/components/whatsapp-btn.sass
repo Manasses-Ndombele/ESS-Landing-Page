@@ -2,16 +2,26 @@
 
 #whatsapp-btn-container
     z-index: 3
-    #whatsapp-btn
-        background-color: #00ff00
-        color: base.$tertiary-color
-        width: 3rem
-        height: 3rem
-        @include base.tablet()
-            width: 4.5rem
-            height: 4.5rem
+    #overlay-btn
+        section
+            width: 1.3rem
+            height: 1.3rem
+            background-color: base.$primary-color
 
-        svg
-            font-size: 2em
+        #whatsapp-btn
+            background-color: #00ff00
+            color: base.$tertiary-color
+            width: 3rem
+            height: 3rem
+            transition: all .3s ease-in
             @include base.tablet()
-                font-size: 3em
+                width: 4.5rem
+                height: 4.5rem
+
+            &:hover
+                background-color: #53ea53
+
+            svg
+                font-size: 2em
+                @include base.tablet()
+                    font-size: 3em

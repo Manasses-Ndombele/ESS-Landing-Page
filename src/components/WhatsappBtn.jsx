@@ -8,11 +8,11 @@ function WhatsappBtn() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           document
-            .querySelector("button#whatsapp-btn")
+            .querySelector("div#overlay-btn")
             .classList.add("visually-hidden");
         } else {
           document
-            .querySelector("button#whatsapp-btn")
+            .querySelector("div#overlay-btn")
             .classList.remove("visually-hidden");
         }
       });
@@ -33,13 +33,16 @@ function WhatsappBtn() {
 
   return (
     <div id="whatsapp-btn-container" className="position-fixed bottom-0 end-0 pe-3 pb-3">
-      <button
-        type="button"
-        className="rounded-circle border-0"
-        id="whatsapp-btn"
-      >
-        <FaWhatsapp />
-      </button>
+      <div id="overlay-btn" className="position-relative">
+        <section className="rounded-circle position-absolute top-0 end-0"></section>
+        <button
+          type="button"
+          className="rounded-circle border-0"
+          id="whatsapp-btn"
+        >
+          <FaWhatsapp />
+        </button>
+      </div>
     </div>
   );
 }

@@ -11,8 +11,8 @@ function TestimoniesArea() {
   return (
     <>
       <div id="testimonies-area-lg" className="p-3">
-        <h2 className="text-center my-3 testimony-title">
-          TESTEMUNHOS DE ALGUNS ALUNOS!
+        <h2 className="text-center my-3 testimony-title text-uppercase">
+          Testemunhos de alguns alunos!
         </h2>
         <div
           id="testimonies-carousel"
@@ -184,8 +184,8 @@ function TestimoniesArea() {
         </div>
       </div>
       <div id="testimonies-area-xl" className="p-3 d-none mt-5">
-        <h2 className="text-center my-3 testimony-title">
-          TESTEMUNHOS DE ALGUNS ALUNOS!
+        <h2 className="text-center my-3 testimony-title text-uppercase">
+          Testemunhos de alguns alunos!
         </h2>
         <div className="testimonies-containers d-flex flex-wrap justify-content-center gap-3 my-4">
           <div className="testimony-container rounded-3 p-3">
