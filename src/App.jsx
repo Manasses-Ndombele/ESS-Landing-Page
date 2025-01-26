@@ -10,6 +10,7 @@ import SpecialOfferArea from './components/SpecialOfferArea'
 import InstructorArea from './components/InstructorArea'
 import FAQ from './components/FAQ'
 import MainFooter from './components/MainFooter'
+import WhatsappBtn from './components/WhatsappBtn'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <FAQ />
       </main>
       <MainFooter />
+      <WhatsappBtn />
     </>
   )
 }
