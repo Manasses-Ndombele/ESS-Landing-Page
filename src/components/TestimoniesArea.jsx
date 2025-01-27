@@ -16,6 +16,8 @@ function TestimoniesArea() {
                                 </p>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae quis. At quos illum, eveniet veritatis quibusdam illo accusantium adipisci reprehenderit fugit sapiente nulla!”</p>
                             </div>
+                        </div>
+                        <div className="carousel-item" data-bs-interval="3000">
                             <div className="testimony-container rounded-3 p-3">
                                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                                     <img src="/testimony-2.webp" alt="Foto de um cliente satisfeito" className="rounded-circle p-2" />
@@ -23,6 +25,8 @@ function TestimoniesArea() {
                                 </p>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae quis. At quos illum, eveniet veritatis quibusdam illo accusantium adipisci reprehenderit fugit sapiente nulla!”</p>
                             </div>
+                        </div>
+                        <div className="carousel-item" data-bs-interval="3000">
                             <div className="testimony-container rounded-3 p-3">
                                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                                     <img src="/testimony-3.webp" alt="Foto de um cliente satisfeito" className="rounded-circle p-2" />
@@ -30,6 +34,8 @@ function TestimoniesArea() {
                                 </p>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae quis. At quos illum, eveniet veritatis quibusdam illo accusantium adipisci reprehenderit fugit sapiente nulla!”</p>
                             </div>
+                        </div>
+                        <div className="carousel-item" data-bs-interval="3000">
                             <div className="testimony-container rounded-3 p-3">
                                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                                     <img src="/testimony-4.jpg" alt="Foto de um cliente satisfeito" className="rounded-circle p-2" />
@@ -37,6 +43,8 @@ function TestimoniesArea() {
                                 </p>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae quis. At quos illum, eveniet veritatis quibusdam illo accusantium adipisci reprehenderit fugit sapiente nulla!”</p>
                             </div>
+                        </div>
+                        <div className="carousel-item" data-bs-interval="3000">
                             <div className="testimony-container rounded-3 p-3">
                                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                                     <img src="/testimony-5.webp" alt="Foto de um cliente satisfeito" className="rounded-circle p-2" />
@@ -44,6 +52,8 @@ function TestimoniesArea() {
                                 </p>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae quis. At quos illum, eveniet veritatis quibusdam illo accusantium adipisci reprehenderit fugit sapiente nulla!”</p>
                             </div>
+                        </div>
+                        <div className="carousel-item" data-bs-interval="3000">
                             <div className="testimony-container rounded-3 p-3">
                                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                                     <img src="/testimony-6.webp" alt="Foto de um cliente satisfeito" className="rounded-circle p-2" />

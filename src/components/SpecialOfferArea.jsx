@@ -10,7 +10,7 @@ function SpecialOfferArea() {
                 <h2 className="fw-bold text-center">OFERTA ESPECIAL</h2>
                 <p className="text-center">De <strong className="text-decoration-line-through">AOA 15.590,00</strong> SÓ HOJE POR APENAS</p>
                 <p className="new-price">AOA 5.500,00</p>
-                <div className="cta-container">
+                <div className="cta-container w-100">
                     <MainCtaBtn text="COMPRAR AGORA MEU CURSO" />
                 </div>
             </div>
