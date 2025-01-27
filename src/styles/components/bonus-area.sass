@@ -8,16 +8,24 @@
 
     p
         font-size: 1.4em
+        @include base.tablet()
+            @include base.container-tablet-mx()
 
-    .bonus-card
-        img
-            width: 18rem
-            height: 15rem
+    .bonus-cards
+        @include base.tablet()
+            width: 90%
+            gap: 2rem !important
+            margin: 2rem auto
 
-        .bonus-description
-            h3
-                @include base.open-sans()
-                font-size: 1.8em
+        .bonus-card
+            img
+                width: 18rem
+                height: 15rem
 
-            p
-                font-size: 1.2em
+            .bonus-description
+                h3
+                    @include base.open-sans()
+                    font-size: 1.8em
+
+                p
+                    font-size: 1.2em

@@ -2,12 +2,18 @@
 
 #checklist-area
     padding-top: 28rem
+    @include base.tablet()
+        padding-top: 32rem
 
     h2
         color: base.$primary-color
         @include base.open-sans()
         font-weight: bold
 
-    ol
-        li
-            font-size: 1.3em
+    .checklist
+        @include base.tablet()
+            padding-left: 2.2rem !important
+
+        ol
+            li
+                font-size: 1.3em

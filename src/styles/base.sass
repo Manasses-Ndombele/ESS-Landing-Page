@@ -23,6 +23,14 @@ $tertiary-color-b: #3c3c3c
     font-style: normal
     font-variation-settings: "wdth" 100
 
+@mixin tablet()
+    @media screen and (min-width: 481px)
+        @content
+
+@mixin container-tablet-mx()
+    width: 90%
+    margin: 0 auto
+
 body
     background-color: $secondary-color
     color: $tertiary-color

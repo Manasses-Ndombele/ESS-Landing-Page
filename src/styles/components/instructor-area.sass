@@ -4,8 +4,12 @@
     img
         width: 16rem
         height: 20rem
+        background-image: radial-gradient(base.$quartenary-color 50%, transparent, transparent)
 
     #instructor-history
+        @include base.tablet()
+            @include base.container-tablet-mx()
+
         h2
             @include base.open-sans()
             font-size: 1.8em

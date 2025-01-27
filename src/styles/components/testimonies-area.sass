@@ -2,6 +2,8 @@
 
 #testimonies-area
     background-image: linear-gradient(to top, base.$quartenary-color, base.$primary-color 60%, transparent, transparent)
+    @include base.tablet()
+        margin-top: 2rem
 
     h2
         color: base.$primary-color
@@ -9,14 +11,23 @@
         font-size: 1.8em
 
     .testimonies-containers
-        .testimony-container
-            background-color: base.$quartenary-color
+        .carousel-item
+            .testimony-container
+                background-color: base.$quartenary-color
+                @include base.tablet()
+                    width: 90%
+                    margin: 0 auto
 
-            p
-                &.testimony-header
-                    @include base.open-sans()
-                    font-size: 1.1em
+                p
+                    &.testimony-header
+                        @include base.open-sans()
+                        font-size: 1.1em
 
-                    img
-                        width: 4rem
-                        height: 4rem
+                        img
+                            width: 4rem
+                            height: 4rem
+
+    .cta-container
+        @include base.tablet()
+            display: flex
+            justify-content: center

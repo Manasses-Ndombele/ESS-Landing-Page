@@ -3,16 +3,22 @@
 header
     .waveforms
         padding-bottom: 5rem
+        @include base.tablet()
+            padding-bottom: 7rem
 
         svg
             &:first-child
                 top: 8px
 
-    .slogan
-        @include base.open-sans()
+    .intro-area
+        @include base.tablet()
+            @include base.container-tablet-mx()
 
-        strong
-            background-color: base.$quinary-color
+        .slogan
+            @include base.open-sans()
 
-    .intro
-        font-size: 1.5em
+            strong
+                background-color: base.$quinary-color
+
+        .intro
+            font-size: 1.5em

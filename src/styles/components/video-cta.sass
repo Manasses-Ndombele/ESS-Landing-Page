@@ -1,6 +1,12 @@
 @use '../base'
 
 .video-cta
+    @include base.tablet()
+        @include base.container-tablet-mx()
+        display: flex
+        flex-direction: column
+        align-items: center
+
     img
         &:first-child
             left: -16rem
@@ -8,9 +14,14 @@
             bottom: -25rem
             filter: grayscale(0.6)
             z-index: 1
+            @include base.tablet()
+                bottom: -30rem
+                height: 28rem
 
         &:nth-child(3)  
             height: 24rem
             right: -3rem
             top: 27rem
             filter: grayscale(0.6)
+            @include base.tablet()
+                height: 28rem

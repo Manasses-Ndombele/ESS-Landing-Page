@@ -4,16 +4,20 @@
     background-color: base.$quartenary-color
     height: 25rem
 
-    h2
-        @include base.open-sans()
-        font-size: 1.8em
+    #special-offer-container
+        @include base.tablet()
+            padding: 1rem 0rem !important
 
-    p
-        &:first-of-type
-            font-size: 1.2em
+        h2
+            @include base.open-sans()
+            font-size: 1.8em
 
-        strong
-            color: base.$primary-color
+        p
+            &:first-of-type
+                font-size: 1.2em
 
-        &:nth-child(4)
-            font-size: 2em
+            strong
+                color: base.$primary-color
+
+            &:nth-child(4)
+                font-size: 2em

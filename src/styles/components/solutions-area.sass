@@ -7,18 +7,26 @@
         font-size: 1.8em
 
     p
-        font-size: 1.4em
+        &:first-of-type
+            font-size: 1.4em
+            @include base.tablet()
+                @include base.container-tablet-mx()
 
     .solutions-cards
-        img
-            width: 15rem
-            height: 15rem
+        @include base.tablet()
+            @include base.container-tablet-mx()
+            gap: 2rem !important
 
-        .solution-description
-            h3
-                @include base.montserrat()
-                color: base.$primary-color
+        .solution-card
+            img
+                width: 15rem
+                height: 15rem
 
-            p
-                box-shadow: 0px 0px 10px base.$primary-color
-                font-size: 1.1em
+            .solution-description
+                h3
+                    @include base.montserrat()
+                    color: base.$primary-color
+
+                p
+                    box-shadow: 0px 0px 10px base.$primary-color
+                    font-size: 1.1em

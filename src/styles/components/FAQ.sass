@@ -7,6 +7,9 @@
         @include base.open-sans()
 
     .accordion
+        @include base.tablet()
+            @include base.container-tablet-mx()
+
         .accordion-item
             border-color: base.$quinary-color
             box-shadow: 0px 0px 5px base.$primary-color
