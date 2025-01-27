@@ -1,0 +1,21 @@
+@use '../base'
+
+#testimonies-area
+    background-image: linear-gradient(to top, base.$quartenary-color, base.$primary-color 60%, transparent, transparent)
+
+    h2
+        color: base.$primary-color
+        @include base.montserrat()
+        font-size: 1.8em
+
+    .testimonies-containers
+        .testimony-container
+            background-color: base.$quartenary-color
+
+            p
+                &.testimony-header
+                    @include base.open-sans()
+                    font-size: 1.1em
+
+                    svg
+                        font-size: 1.3em

@@ -1,0 +1,23 @@
+@use '../base'
+
+#bonus-area
+    h2
+        @include base.montserrat()
+        color: base.$primary-color
+        font-size: 1.8em
+
+    p
+        font-size: 1.4em
+
+    .bonus-card
+        img
+            width: 18rem
+            height: 15rem
+
+        .bonus-description
+            h3
+                @include base.open-sans()
+                font-size: 1.8em
+
+            p
+                font-size: 1.2em

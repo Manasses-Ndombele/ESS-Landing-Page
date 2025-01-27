@@ -1,0 +1,27 @@
+@use '../base'
+
+#faq-area
+    h2
+        color: base.$primary-color
+        font-size: 1.8em
+        @include base.open-sans()
+
+    .accordion
+        .accordion-item
+            border-color: base.$quinary-color
+            box-shadow: 0px 0px 5px base.$primary-color
+
+            .accordion-button
+                color: base.$tertiary-color
+                box-shadow: 0px 0px 5px base.$primary-color
+                @include base.open-sans()
+                font-size: .8em
+
+                &::after
+                    display: none
+
+                svg
+                    font-size: 1.5em
+
+            .accordion-body
+                color: base.$tertiary-color

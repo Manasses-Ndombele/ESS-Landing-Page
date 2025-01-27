@@ -1,0 +1,24 @@
+@use '../base'
+
+#solutions-area
+    h2
+        color: base.$primary-color
+        @include base.open-sans()
+        font-size: 1.8em
+
+    p
+        font-size: 1.4em
+
+    .solutions-cards
+        img
+            width: 15rem
+            height: 15rem
+
+        .solution-description
+            h3
+                @include base.montserrat()
+                color: base.$primary-color
+
+            p
+                box-shadow: 0px 0px 10px base.$primary-color
+                font-size: 1.1em

@@ -1,0 +1,13 @@
+@use '../base'
+
+.main-cta-btn
+    background-image: linear-gradient(to right, base.$primary-color, base.$quartenary-color)
+    color: base.$tertiary-color
+    font-size: 1.1em
+    box-shadow: 0px 0px 20px base.$primary-color
+    transition: transform .3s ease-in
+    @include base.open-sans()
+
+    &:active,
+    &:hover
+        transform: scale(1.04)

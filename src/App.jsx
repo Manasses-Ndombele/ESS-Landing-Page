@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import './styles/base.sass'
 import MainHeader from './components/MainHeader'
 import VideoCta from './components/VideoCta'
 import CheckList from './components/CheckList'

@@ -1,54 +1,24 @@
-import { IoCheckmarkDoneSharp } from 'react-icons/io5'
+import '../styles/components/checklist.sass'
 
 function CheckList() {
     return (
-        <div className="checklist-area">
+        <div id="checklist-area" className="px-3">
             <h2>ESSE CURSO É PARA VOCÊ QUE:</h2>
-            <div className="checklist">
-                <ul>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Já tentou parar de comer de forma desenfreada mas não conseguiu</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Já tentou parar de comer de forma mais saudável mas não conseguiu</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Já desistiu de tentar vencer isso!</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Come constantemente por angústia</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>É totalmente sedentário, preguiçoso e procrastinador crônico!</span>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>É depressivo, solitário e por vezes um nerd e hacker!</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Sente vergonha do seu próprio corpo principalmente em público</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Gasta mais de 50% da sua renda mensal no McDonalds</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Tem vontade de mudar mas se sente bloqueado</span>
-                    </li>
-                    <li>
-                        <IoCheckmarkDoneSharp />
-                        <span>Tem fé e paciência para ver seus resultados</span>
-                    </li>
-                </ul>
+            <div className="checklist px-3">
+                <ol className="ps-0">
+                    <li>Já tentou parar de comer de forma desenfreada mas não conseguiu</li>
+                    <li>Já tentou parar de comer de forma mais saudável mas não conseguiu</li>
+                    <li>Já desistiu de tentar vencer isso!</li>
+                    <li>Come constantemente por angústia</li>
+                    <li>É totalmente sedentário, preguiçoso e procrastinador crônico!</li>
+                </ol>
+                <ol className="ps-0" start="6">
+                    <li>É depressivo, solitário e por vezes um nerd e hacker!</li>
+                    <li>Sente vergonha do seu próprio corpo principalmente em público</li>
+                    <li>Gasta mais de 50% da sua renda mensal no McDonalds</li>
+                    <li>Tem vontade de mudar mas se sente bloqueado</li>
+                    <li>Tem fé e paciência para ver seus resultados</li>
+                </ol>
             </div>
         </div>
     )

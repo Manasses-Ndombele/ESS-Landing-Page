@@ -1,0 +1,19 @@
+@use '../base'
+
+#special-offer-area
+    background-color: base.$quartenary-color
+    height: 25rem
+
+    h2
+        @include base.open-sans()
+        font-size: 1.8em
+
+    p
+        &:first-of-type
+            font-size: 1.2em
+
+        strong
+            color: base.$primary-color
+
+        &:nth-child(4)
+            font-size: 2em
