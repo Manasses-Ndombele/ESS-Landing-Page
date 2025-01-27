@@ -13,6 +13,9 @@
         @include base.open-sans()
         font-weight: bold
 
+        @include base.desktop()
+            text-align: center
+
     .checklist
         @include base.tablet()
             padding-left: 2.2rem !important
@@ -21,6 +24,10 @@
             display: flex
             gap: 2rem
             padding: 1rem 1.5rem 0rem 1.5rem !important
+
+        @include base.desktop()
+            width: 90%
+            margin: 0 auto
 
         ol
             li

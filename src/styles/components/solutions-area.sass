@@ -10,6 +10,8 @@
         &:first-of-type
             font-size: 1.4em
             @include base.container-mx()
+            @include base.desktop()
+                width: 60%
 
     .solutions-cards
         @include base.container-mx()
@@ -19,12 +21,20 @@
         @include base.laptop()
             width: 90%
 
+        @include base.desktop()
+            flex-direction: row !important
+            justify-content: space-around
+
         .solution-card
             @include base.laptop()
                 flex-direction: row !important
                 padding: 0 !important
                 gap: 2rem
                 justify-content: center
+
+            @include base.desktop()
+                flex-direction: column !important
+                width: 32%
 
             img
                 width: 15rem
@@ -38,3 +48,5 @@
                 p
                     box-shadow: 0px 0px 10px base.$primary-color
                     font-size: 1.1em
+                    @include base.desktop()
+                        width: 100%

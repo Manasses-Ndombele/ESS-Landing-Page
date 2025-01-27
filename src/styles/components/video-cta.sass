@@ -8,6 +8,9 @@
         align-items: center
 
     img
+        @include base.desktop()
+            height: 30rem
+
         &:first-child
             left: -16rem
             height: 24rem
@@ -22,6 +25,9 @@
                 left: -23rem
                 bottom: 2rem
 
+            @include base.desktop()
+                left: -26rem
+
         &:nth-child(3)  
             height: 24rem
             right: -3rem
@@ -34,7 +40,14 @@
                 right: -7rem
                 top: -5rem
 
+            @include base.desktop()
+                right: -9rem
+                top: -1rem
+
     iframe
         @include base.laptop()
             z-index: 1
-            width: 80%
+            width: 80% !important
+
+        @include base.desktop()
+            height: 24rem !important

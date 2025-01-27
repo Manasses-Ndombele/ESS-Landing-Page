@@ -10,14 +10,22 @@ header
             padding-bottom: 8rem
 
         svg
-            &:first-child
+            &:first-of-type
                 top: 8px
+                @include base.desktop()
+                    top: -14px
+
+            &:last-of-type
+                @include base.desktop()
+                    top: -38px !important
 
     .intro-area
         @include base.container-mx()
-
         @include base.laptop()
             margin-bottom: 5rem
+
+        @include base.desktop()
+            width: 70%
 
         .slogan
             @include base.open-sans()

@@ -9,6 +9,8 @@
     p.bonus-main-description
         font-size: 1.4em
         @include base.container-mx()
+        @include base.desktop()
+            width: 60%
 
     .bonus-cards
         @include base.tablet()
@@ -19,10 +21,18 @@
         @include base.laptop()
             width: 100%
 
+        @include base.desktop()
+            flex-direction: row !important
+            justify-content: space-around
+            width: 90%
+
         .bonus-card
             @include base.laptop()
                 flex-direction: row !important
                 align-items: start !important
+
+            @include base.desktop()
+                flex-direction: column !important
 
             img
                 width: 18rem

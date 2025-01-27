@@ -31,6 +31,10 @@ $tertiary-color-b: #3c3c3c
     @media screen and (min-width: 769px)
         @content
 
+@mixin desktop()
+    @media screen and (min-width: 1025px)
+        @content
+
 @mixin container-mx()
     @include tablet()
         width: 90%

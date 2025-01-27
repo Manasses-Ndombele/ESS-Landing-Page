@@ -4,7 +4,7 @@ function SolutionsArea() {
     return (
         <div id="solutions-area">
             <h2 className="text-center fw-bold p-3">CONHEÇA AS SOLUÇÕES</h2>
-            <p className="text-center px-3">Estes são os três pilares principais do nosso treinamento completo que vão fazer de ti uma pessoa fitness!</p>
+            <p className="text-center px-3 solutions-main-description">Estes são os três pilares principais do nosso treinamento completo que vão fazer de ti uma pessoa fitness!</p>
             <div className="solutions-cards d-flex flex-column gap-3 mt-5">
                 <div className="solution-card d-flex flex-column align-items-center py-2 px-4">
                     <img src="/card-opt-1.jpg" alt="Solução para emagrecer" className="rounded-circle" />
