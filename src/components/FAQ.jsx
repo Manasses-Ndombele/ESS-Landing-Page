@@ -48,7 +48,7 @@ function FAQ() {
                 <div className="accordion-item rounded-0 bg-transparent">
                     <h3 className="accordion-header">
                         <button className="accordion-button bg-transparent d-flex align-items-center justify-content-between collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Qual a plataforma do curso?
+                            Tem suporte?
                             <IoChevronDownOutline />
                         </button>
                     </h3>
