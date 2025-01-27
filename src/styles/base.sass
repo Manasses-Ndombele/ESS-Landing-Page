@@ -27,9 +27,17 @@ $tertiary-color-b: #3c3c3c
     @media screen and (min-width: 481px)
         @content
 
-@mixin container-tablet-mx()
-    width: 90%
-    margin: 0 auto
+@mixin laptop()
+    @media screen and (min-width: 769px)
+        @content
+
+@mixin container-mx()
+    @include tablet()
+        width: 90%
+        margin: 0 auto
+
+    @include laptop()
+        width: 80%
 
 body
     background-color: $secondary-color

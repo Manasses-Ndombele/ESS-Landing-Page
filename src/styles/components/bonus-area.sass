@@ -6,10 +6,9 @@
         color: base.$primary-color
         font-size: 1.8em
 
-    p
+    p.bonus-main-description
         font-size: 1.4em
-        @include base.tablet()
-            @include base.container-tablet-mx()
+        @include base.container-mx()
 
     .bonus-cards
         @include base.tablet()
@@ -17,7 +16,14 @@
             gap: 2rem !important
             margin: 2rem auto
 
+        @include base.laptop()
+            width: 100%
+
         .bonus-card
+            @include base.laptop()
+                flex-direction: row !important
+                align-items: start !important
+
             img
                 width: 18rem
                 height: 15rem
@@ -26,6 +32,8 @@
                 h3
                     @include base.open-sans()
                     font-size: 1.8em
+                    @include base.laptop()
+                        text-align: left !important
 
                 p
                     font-size: 1.2em

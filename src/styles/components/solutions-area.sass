@@ -9,15 +9,23 @@
     p
         &:first-of-type
             font-size: 1.4em
-            @include base.tablet()
-                @include base.container-tablet-mx()
+            @include base.container-mx()
 
     .solutions-cards
+        @include base.container-mx()
         @include base.tablet()
-            @include base.container-tablet-mx()
             gap: 2rem !important
 
+        @include base.laptop()
+            width: 90%
+
         .solution-card
+            @include base.laptop()
+                flex-direction: row !important
+                padding: 0 !important
+                gap: 2rem
+                justify-content: center
+
             img
                 width: 15rem
                 height: 15rem

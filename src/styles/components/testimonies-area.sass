@@ -1,33 +1,48 @@
 @use '../base'
 
-#testimonies-area
+h2.testimony-title
+    color: base.$primary-color
+    @include base.montserrat()
+    font-size: 1.8em
+
+#testimonies-area-lg
     background-image: linear-gradient(to top, base.$quartenary-color, base.$primary-color 60%, transparent, transparent)
     @include base.tablet()
         margin-top: 2rem
 
-    h2
-        color: base.$primary-color
-        @include base.montserrat()
-        font-size: 1.8em
+    @include base.laptop()
+        display: none
 
-    .testimonies-containers
-        .carousel-item
-            .testimony-container
-                background-color: base.$quartenary-color
-                @include base.tablet()
-                    width: 90%
-                    margin: 0 auto
+#testimonies-area-xl
+    background-image: linear-gradient(to top, base.$quartenary-color, base.$primary-color 60%, transparent, transparent)
+    @include base.laptop()
+        display: flex !important
+        flex-direction: column
+        align-items: center
 
-                p
-                    &.testimony-header
-                        @include base.open-sans()
-                        font-size: 1.1em
+.testimony-container
+    background-color: base.$quartenary-color
+    @include base.tablet()
+        width: 90%
+        margin: 0 auto
 
-                        img
-                            width: 4rem
-                            height: 4rem
+    @include base.laptop()
+        width: 45%
+        margin: 0
 
-    .cta-container
-        @include base.tablet()
-            display: flex
-            justify-content: center
+    p
+        &.testimony-header
+            @include base.open-sans()
+            font-size: 1.1em
+
+            img
+                width: 4rem
+                height: 4rem
+
+.cta-container
+    @include base.tablet()
+        display: flex
+        justify-content: center
+
+    @include base.laptop()
+        width: 80%

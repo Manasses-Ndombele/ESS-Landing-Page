@@ -6,13 +6,18 @@ header
         @include base.tablet()
             padding-bottom: 7rem
 
+        @include base.laptop()
+            padding-bottom: 8rem
+
         svg
             &:first-child
                 top: 8px
 
     .intro-area
-        @include base.tablet()
-            @include base.container-tablet-mx()
+        @include base.container-mx()
+
+        @include base.laptop()
+            margin-bottom: 5rem
 
         .slogan
             @include base.open-sans()

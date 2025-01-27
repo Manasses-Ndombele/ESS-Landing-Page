@@ -1,14 +1,21 @@
 @use '../base'
 
 #instructor-area
+    @include base.laptop()
+        flex-direction: row !important
+        justify-content: center
+
     img
         width: 16rem
         height: 20rem
         background-image: radial-gradient(base.$quartenary-color 50%, transparent, transparent)
 
     #instructor-history
-        @include base.tablet()
-            @include base.container-tablet-mx()
+        @include base.container-mx()
+
+        @include base.laptop()
+            width: 60%
+            margin: 0
 
         h2
             @include base.open-sans()

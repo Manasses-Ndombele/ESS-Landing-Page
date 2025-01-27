@@ -7,8 +7,9 @@
         @include base.open-sans()
 
     .accordion
-        @include base.tablet()
-            @include base.container-tablet-mx()
+        @include base.container-mx()
+        @include base.laptop()
+            width: 70%
 
         .accordion-item
             border-color: base.$quinary-color

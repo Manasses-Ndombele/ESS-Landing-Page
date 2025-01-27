@@ -4,7 +4,7 @@ function BonusArea() {
     return (
         <div id="bonus-area" className="p-3 mt-4">
             <h2 className="text-center p-2">ADQUIRINDO O CURSO</h2>
-            <p className="text-center p-2">Você também ganha 3 bônus totalmente de graça e também de forma gratuita</p>
+            <p className="text-center p-2 bonus-main-description">Você também ganha 3 bônus totalmente de graça e também de forma gratuita</p>
             <div className="bonus-cards d-flex flex-column align-items-center gap-3">
                 <div className="bonus-card d-flex flex-column align-items-center gap-3">
                     <img src="/ebook-cover-1.png" alt="Ebook de Bonus" />
