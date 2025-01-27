@@ -15,9 +15,15 @@ header
                 @include base.desktop()
                     top: -14px
 
+                @include base.Tv()
+                    top: -37px
+
             &:last-of-type
                 @include base.desktop()
                     top: -38px !important
+
+                @include base.Tv()
+                    top: -60px !important
 
     .intro-area
         @include base.container-mx()
@@ -26,6 +32,9 @@ header
 
         @include base.desktop()
             width: 70%
+
+        @include base.Tv()
+            width: 60%
 
         .slogan
             @include base.open-sans()

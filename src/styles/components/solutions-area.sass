@@ -13,6 +13,9 @@
             @include base.desktop()
                 width: 60%
 
+            @include base.Tv()
+                width: 50%
+
     .solutions-cards
         @include base.container-mx()
         @include base.tablet()
@@ -24,6 +27,9 @@
         @include base.desktop()
             flex-direction: row !important
             justify-content: space-around
+
+        @include base.Tv()
+            width: 80%
 
         .solution-card
             @include base.laptop()

@@ -28,6 +28,9 @@
             @include base.desktop()
                 left: -26rem
 
+            @include base.Tv()
+                left: -27rem
+
         &:nth-child(3)  
             height: 24rem
             right: -3rem
@@ -44,6 +47,10 @@
                 right: -9rem
                 top: -1rem
 
+            @include base.Tv()
+                right: -10rem
+                top: -1.5rem
+
     iframe
         @include base.laptop()
             z-index: 1
@@ -51,3 +58,7 @@
 
         @include base.desktop()
             height: 24rem !important
+
+        @include base.Tv()
+            width: 60% !important
+            height: 28rem
