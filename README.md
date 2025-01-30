@@ -1,8 +1,20 @@
-# React + Vite
+# Emagrecimento Sem Segredos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo
+Este projeto envolve a demonstração de habilidades em desenvolvimento frontend e web design, exemplificando através da criação desta landing page ou página de vendas de um infoproduto de emagrecimento fictício no caso entitulado "Emagrecimento Sem Segredos".
 
-Currently, two official plugins are available:
+## Algumas imagens do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Imagem 1 do projeto](https://media.giphy.com/media/T9p1xysVSAu7cBL5DX/giphy.gif)
+
+![Imagem 2 do projeto](https://media.giphy.com/media/SuD4FzBeiSbvp9kLzh/giphy.gif)
+
+## Tecnologias usadas
+1. HTML
+2. JavaScript
+3. React
+4. React Icons
+4. Bootstrap
+5. Sass
+
+&copy; 2025 - Manassés Ndombele Desenvolvedor Web Fullstack
