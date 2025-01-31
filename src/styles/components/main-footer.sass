@@ -7,10 +7,10 @@ footer
             font-size: 1.1em
 
     p
-        &:first-of-type
-            @include base.laptop()
-                width: 80%
-                margin: 0 auto
+        @include base.laptop()
+            width: 80%
+            margin: 0 auto
 
-        &:last-child
-            font-size: 1.1em
+    a
+        color: base.$tertiary-color
+        font-size: 1.1em
