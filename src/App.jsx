@@ -13,6 +13,8 @@ import FAQ from "./components/FAQ";
 import MainFooter from "./components/MainFooter";
 import WhatsappBtn from "./components/WhatsappBtn";
 import ArrowBottom from "./components/ArrowBottom";
+import ModalPromotion from "./components/ModalPromotion";
+import ModalCheckout from "./components/ModalCheckout";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <MainFooter />
       <WhatsappBtn />
       <ArrowBottom />
+      <ModalPromotion />
+      <ModalCheckout />
     </>
   );
 }
