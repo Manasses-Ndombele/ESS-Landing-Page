@@ -32,13 +32,15 @@ function WhatsappBtn() {
   }, []);
 
   return (
-    <button
-      type="button"
-      className="position-fixed rounded-circle bottom-0 end-0 m-3 border-0"
-      id="whatsapp-btn"
-    >
-      <FaWhatsapp />
-    </button>
+    <div id="whatsapp-btn-container" className="position-fixed bottom-0 end-0 pe-3 pb-3">
+      <button
+        type="button"
+        className="rounded-circle border-0"
+        id="whatsapp-btn"
+      >
+        <FaWhatsapp />
+      </button>
+    </div>
   );
 }
 

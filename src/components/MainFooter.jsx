@@ -6,7 +6,7 @@ function MainFooter() {
     <footer className="p-3 text-center d-flex flex-column gap-2">
       <BrandTitle />
       <nav>
-        <a href="#">Termos de uso</a> -<a href="#"> Políticas de privacidade</a>{" "}
+        <a href="#">Termos de uso</a> -<a href="#"> Políticas de privacidade</a>
         -<a href="#"> Contato</a>
       </nav>
       <p className="mb-0">

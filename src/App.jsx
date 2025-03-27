@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./styles/base.sass";
-import MainHeader from "./components/MainHeader";
+import TopClock from "./components/TopClock";
+import IntroArea from "./components/IntroArea";
 import VideoCta from "./components/VideoCta";
 import CheckList from "./components/CheckList";
 import SolutionsArea from "./components/SolutionsArea";
@@ -19,7 +20,8 @@ import ModalCheckout from "./components/ModalCheckout";
 function App() {
   return (
     <>
-      <MainHeader />
+      <TopClock />
+      <IntroArea />
       <main>
         <VideoCta />
         <CheckList />

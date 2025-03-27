@@ -1,0 +1,42 @@
+@use '../base'
+
+div#checkout-modal
+    .modal-header
+        border-bottom: 1px solid base.$secondary-color
+        .modal-title
+            color: base.$secondary-color
+            svg
+                font-size: 1.5em
+
+            span
+                @include base.open-sans()
+
+        .close-btn
+            color: base.$quartenary-color
+            font-size: 1.8em
+
+    .modal-body
+        color: base.$secondary-color
+        div
+            .form-label
+                @include base.open-sans()
+
+            .form-control
+                border: 1px solid base.$secondary-color
+                color: base.$secondary-color
+                &::placeholder
+                    color: base.$secondary-color
+
+                &:focus
+                    box-shadow: none
+
+            section
+                grid-template-columns: 25% 25% 25% 25%
+                grid-template-rows: 1.5rem
+                width: 150px
+                img
+                    width: 1.5rem
+                    height: 1.5rem
+
+            button[type="submit"]
+                @include base.open-sans()

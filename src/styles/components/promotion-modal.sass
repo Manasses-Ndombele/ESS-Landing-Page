@@ -1,0 +1,21 @@
+@use '../base'
+
+div#promotion-modal
+    .modal-content
+        background-color: base.$quartenary-color
+        .modal-header
+            border-bottom: none
+            .modal-title
+                color: base.$primary-color
+                @include base.montserrat()
+
+        .modal-body
+            color: base.$tertiary-color
+
+            span
+                font-size: 1.5em
+
+            button
+                border: none
+                background-color: base.$quinary-color
+                color: base.$tertiary-color

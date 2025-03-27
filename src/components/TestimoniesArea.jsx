@@ -1,4 +1,4 @@
-import MainCtaBtn from "./MainCtaBtn";
+import "../styles/components/main-cta-btn.sass";
 import "../styles/components/testimonies-area.sass";
 
 function TestimoniesArea() {
@@ -149,7 +149,14 @@ function TestimoniesArea() {
           </button>
         </div>
         <div className="cta-container">
-          <MainCtaBtn text="QUERO EMAGRECER AGORA" />
+          <button
+            type="button"
+            className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
+            data-bs-target="#checkout-modal"
+            data-bs-toggle="modal"
+          >
+            Quero emagrecer agora
+          </button>
         </div>
       </div>
       <div id="testimonies-area-xl" className="p-3 d-none mt-5">
@@ -255,7 +262,14 @@ function TestimoniesArea() {
           </div>
         </div>
         <div className="cta-container">
-          <MainCtaBtn text="QUERO EMAGRECER AGORA" />
+          <button
+            type="button"
+            className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
+            data-bs-target="#checkout-modal"
+            data-bs-toggle="modal"
+          >
+            Quero emagrecer agora
+          </button>
         </div>
       </div>
     </>

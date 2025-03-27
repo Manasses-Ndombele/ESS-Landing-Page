@@ -1,0 +1,14 @@
+@use '../base'
+
+@keyframes arrow-move
+    from
+        transform: translateY(-20px)
+
+    to
+        transform: translateY(20px)
+
+div#arrow-animated
+    svg
+        font-size: 3.5em
+        color: base.$primary-color
+        animation: arrow-move 1s ease-in infinite alternate-reverse

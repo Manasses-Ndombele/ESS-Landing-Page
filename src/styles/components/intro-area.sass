@@ -1,0 +1,21 @@
+@use '../base'
+
+.intro-area
+    @include base.container-mx()
+    @include base.laptop()
+        margin-bottom: 5rem
+
+    @include base.desktop()
+        width: 70%
+
+    @include base.Tv()
+        width: 60%
+
+    .slogan
+        @include base.open-sans()
+
+        strong
+            background-color: base.$quinary-color
+
+    .intro
+        font-size: 1.5em

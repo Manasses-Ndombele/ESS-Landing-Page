@@ -1,6 +1,6 @@
 import BrandTitle from "./BrandTitle";
-import MainCtaBtn from "./MainCtaBtn";
 import "../styles/components/special-offer-area.sass";
+import "../styles/components/main-cta-btn.sass";
 
 function SpecialOfferArea() {
   return (
@@ -12,15 +12,22 @@ function SpecialOfferArea() {
         <BrandTitle />
         <h2 className="fw-bold text-center">OFERTA ESPECIAL</h2>
         <p className="text-center">
-          De{" "}
+          De
           <strong className="text-decoration-line-through">
             AOA 15.590,00
-          </strong>{" "}
+          </strong>
           SÓ HOJE POR APENAS
         </p>
         <p className="new-price">AOA 5.500,00</p>
         <div className="cta-container w-100">
-          <MainCtaBtn text="COMPRAR AGORA MEU CURSO" />
+          <button
+            type="button"
+            className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
+            data-bs-target="#checkout-modal"
+            data-bs-toggle="modal"
+          >
+            Comprar meu curso agora!
+          </button>
         </div>
       </div>
     </div>
