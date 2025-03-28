@@ -7,18 +7,10 @@
     box-shadow: 0px 0px 20px base.$primary-color
     z-index: 1
     transition: transform .3s ease-in
+    max-width: 300px
+    border-radius: 10px
+    padding: 10px 10px
     @include base.open-sans()
-    @include base.tablet()
-        width: 70% !important
-
-    @include base.laptop()
-        width: 60% !important
-
-    @include base.desktop()
-        width: 40% !important
-
-    @include base.Tv()
-        width: 30% !important
 
     &:active,
     &:hover

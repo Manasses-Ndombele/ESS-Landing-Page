@@ -13,10 +13,10 @@ function BonusArea() {
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #1</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              quasi perferendis hic harum consectetur eius! Recusandae ut totam
-              illum nam itaque natus ipsa, quia, minus non corporis explicabo,
-              dolorum nisi.
+              Rotinas diárias de 15 a 30 minutos para todos os níveis, com foco
+              em consistência e resultados progressivos. Transforme exercícios
+              em hábitos duradouros usando apenas o peso do corpo e itens
+              domésticos.
             </p>
             <p>
               AOA 2450,00 <strong className="d-block mt-2">Hoje: Grátis</strong>
@@ -28,10 +28,10 @@ function BonusArea() {
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #2</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              quasi perferendis hic harum consectetur eius! Recusandae ut totam
-              illum nam itaque natus ipsa, quia, minus non corporis explicabo,
-              dolorum nisi.
+              Métodos da ioga para desenvolver disciplina mental e física.
+              Inclui sequências matinais (energia) e noturnas (relaxamento) de
+              10 minutos, adaptáveis para iniciantes e perfeitas para rotinas
+              agitadas.
             </p>
             <p>
               AOA 1850,00 <strong className="d-block mt-2">Hoje: Grátis</strong>
@@ -43,10 +43,9 @@ function BonusArea() {
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #3</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              quasi perferendis hic harum consectetur eius! Recusandae ut totam
-              illum nam itaque natus ipsa, quia, minus non corporis explicabo,
-              dolorum nisi.
+              50 receitas saudáveis e rápidas (até 20 minutos), com ingredientes
+              comuns. Desde opções low-carb até versões light de comfort foods,
+              todas testadas e aprovadas por quem tem pouco tempo.
             </p>
             <p>
               AOA 4400,00 <strong className="d-block mt-2">Hoje: Grátis</strong>

@@ -24,14 +24,16 @@ function VideoCTA() {
         alt="Estado 2 magra"
         className="position-absolute"
       />
-      <button
-        type="button"
-        className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
-        data-bs-target="#checkout-modal"
-        data-bs-toggle="modal"
-      >
-        Quero emagrecer agora
-      </button>
+      <div className="mx-auto d-flex justify-content-center w-100">
+        <button
+          type="button"
+          className="main-cta-btn text-uppercase border-0 w-100 fw-bold"
+          data-bs-target="#checkout-modal"
+          data-bs-toggle="modal"
+        >
+          Quero emagrecer agora
+        </button>
+      </div>
     </div>
   );
 }

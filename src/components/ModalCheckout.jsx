@@ -19,6 +19,7 @@ const validationSchema = Yup.object().shape({
     .min(100, "O CVV é entre 3 á 4 dígitos")
     .max(9999, "O CVV é entre 3 á 4 dígitos")
     .required("Este campo é obrigatório!"),
+  coupon: Yup.string().required("Este campo é obrigatório!"),
 });
 
 function ModalCheckout() {
@@ -53,6 +54,7 @@ function ModalCheckout() {
                 card_number: "",
                 expiration_date: "",
                 cvv: "",
+                cupom: "",
               }}
               validationSchema={validationSchema}
               onSubmit={(values, { setSubmitting, resetForm }) => {
@@ -162,6 +164,23 @@ function ModalCheckout() {
                     component={"span"}
                     className="text-danger"
                     name="cvv"
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="coupon-field" className="form-label">
+                    Cupom
+                  </label>
+                  <Field
+                    type="text"
+                    className="form-control"
+                    placeholder="Cupom"
+                    name="coupon"
+                    id="coupon-field"
+                  />
+                  <ErrorMessage
+                    component={"span"}
+                    className="text-danger"
+                    name="coupon"
                   />
                 </div>
                 <div className="mb-3">

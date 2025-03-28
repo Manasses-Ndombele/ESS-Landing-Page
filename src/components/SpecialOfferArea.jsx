@@ -12,17 +12,17 @@ function SpecialOfferArea() {
         <BrandTitle />
         <h2 className="fw-bold text-center">OFERTA ESPECIAL</h2>
         <p className="text-center">
-          De
+          De{" "}
           <strong className="text-decoration-line-through">
             AOA 15.590,00
-          </strong>
+          </strong>{" "}
           SÓ HOJE POR APENAS
         </p>
         <p className="new-price">AOA 5.500,00</p>
-        <div className="cta-container w-100">
+        <div className="cta-container mx-auto d-flex justify-content-center w-100">
           <button
             type="button"
-            className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
+            className="main-cta-btn text-uppercase border-0 w-100 fw-bold"
             data-bs-target="#checkout-modal"
             data-bs-toggle="modal"
           >

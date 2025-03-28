@@ -36,6 +36,7 @@
             right: -3rem
             top: 27rem
             filter: grayscale(0.6)
+            z-index: 1
             @include base.tablet()
                 height: 28rem
 
@@ -52,8 +53,8 @@
                 top: -1.5rem
 
     iframe
+        z-index: 2
         @include base.laptop()
-            z-index: 1
             width: 80% !important
 
         @include base.desktop()

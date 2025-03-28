@@ -22,13 +22,16 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Bruno Peregrino</span>
+                  <span>
+                    Bruno Peregrino
+                    <span className="d-block fw-normal">38 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Depois de anos tentando dietas malucas, o{" "}
+                  <strong>Emagrecimento Sem Segredos</strong> me mostrou o
+                  caminho certo. Em 3 meses perdi 12kg de forma saudável e sem
+                  sofrimento. A metodologia da Fernanda Souza é revolucionária!”
                 </p>
               </div>
             </div>
@@ -40,13 +43,17 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Malu Peregrina</span>
+                  <span>
+                    Malu Peregrina
+                    <span className="d-block fw-normal">32 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Como mãe de dois filhos, nunca tinha tempo para cuidar de
+                  mim. A Fernanda me ensinou que emagrecer não é sobre
+                  restrição, mas sobre equilíbrio. Perdi 8kg sem deixar de
+                  curtir a vida e hoje me sinto mais confiante do que nunca! O
+                  curso mudou minha relação com a comida e com meu corpo.”
                 </p>
               </div>
             </div>
@@ -58,13 +65,16 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Thiago Nicéia</span>
+                  <span>
+                    Thiago Nicéia
+                    <span className="d-block fw-normal">45 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Sou empresário e sempre priorizei meu trabalho acima da
+                  saúde. O método da Fernanda Souza me fez entender que saúde é
+                  produtividade. Em 4 meses eliminei a gordura visceral que me
+                  incomodava há anos. Recomendo para qualquer profissional!”
                 </p>
               </div>
             </div>
@@ -76,13 +86,15 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Thiago Finéas</span>
+                  <span>
+                    Ana Jordão<span className="d-block fw-normal">29 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Aprendi mais com a Fernanda em 2 meses do que em 10 anos de
+                  nutricionistas. Seu jeito direto e sem enrolação mostra que
+                  ela realmente entende a rotina de quem é mãe e empreendedora.
+                  Finalmente encontrei um programa que se adapta à minha vida!”
                 </p>
               </div>
             </div>
@@ -94,13 +106,16 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Pablo Marcelo</span>
+                  <span>
+                    Pablo Marcelo
+                    <span className="d-block fw-normal">45 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Como fã dos cosméticos da Fernanda, quando lançou o curso eu
+                  não pensei duas vezes. E não me arrependo! Perdi 15kg
+                  entendendo meu corpo, sem remédios ou loucuras. A abordagem
+                  humana dela faz toda diferença.”
                 </p>
               </div>
             </div>
@@ -112,13 +127,16 @@ function TestimoniesArea() {
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
-                  <span>Bruno Perrucho</span>
+                  <span>
+                    Nathália Arcurel
+                    <span className="d-block fw-normal">35 anos</span>
+                  </span>
                 </p>
                 <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci voluptatibus ab beatae eum nulla explicabo
-                  repudiandae quis. At quos illum, eveniet veritatis quibusdam
-                  illo accusantium adipisci reprehenderit fugit sapiente nulla!”
+                  “Depois do segundo filho, meu metabolismo mudou completamente.
+                  A Fernanda Souza me mostrou como respeitar meu novo corpo
+                  enquanto atingia meus objetivos. Hoje não só emagreci, mas
+                  ganhei energia para cuidar dos meus filhos e negócios!”
                 </p>
               </div>
             </div>
@@ -171,13 +189,16 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Bruno Peregrino</span>
+              <span>
+                Bruno Peregrino
+                <span className="d-block fw-normal">38 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Depois de anos tentando dietas malucas, o{" "}
+              <strong>Emagrecimento Sem Segredos</strong> me mostrou o caminho
+              certo. Em 3 meses perdi 12kg de forma saudável e sem sofrimento. A
+              metodologia da Fernanda Souza é revolucionária!”
             </p>
           </div>
           <div className="testimony-container rounded-3 p-3">
@@ -187,13 +208,16 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Malu Peregrina</span>
+              <span>
+                Malu Peregrina<span className="d-block fw-normal">32 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Como mãe de dois filhos, nunca tinha tempo para cuidar de mim. A
+              Fernanda me ensinou que emagrecer não é sobre restrição, mas sobre
+              equilíbrio. Perdi 8kg sem deixar de curtir a vida e hoje me sinto
+              mais confiante do que nunca! O curso mudou minha relação com a
+              comida e com meu corpo.”
             </p>
           </div>
           <div className="testimony-container rounded-3 p-3">
@@ -203,13 +227,15 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Thiago Nicéia</span>
+              <span>
+                Thiago Nicéia<span className="d-block fw-normal">45 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Sou empresário e sempre priorizei meu trabalho acima da saúde. O
+              método da Fernanda Souza me fez entender que saúde é
+              produtividade. Em 4 meses eliminei a gordura visceral que me
+              incomodava há anos. Recomendo para qualquer profissional!”
             </p>
           </div>
           <div className="testimony-container rounded-3 p-3">
@@ -219,13 +245,15 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Thiago Finéas</span>
+              <span>
+                Ana Jordão<span className="d-block fw-normal">29 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Aprendi mais com a Fernanda em 2 meses do que em 10 anos de
+              nutricionistas. Seu jeito direto e sem enrolação mostra que ela
+              realmente entende a rotina de quem é mãe e empreendedora.
+              Finalmente encontrei um programa que se adapta à minha vida!”
             </p>
           </div>
           <div className="testimony-container rounded-3 p-3">
@@ -235,13 +263,15 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Pablo Marcelo</span>
+              <span>
+                Pablo Marcelo<span className="d-block fw-normal">45 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Como fã dos cosméticos da Fernanda, quando lançou o curso eu não
+              pensei duas vezes. E não me arrependo! Perdi 15kg entendendo meu
+              corpo, sem remédios ou loucuras. A abordagem humana dela faz toda
+              diferença.”
             </p>
           </div>
           <div className="testimony-container rounded-3 p-3">
@@ -251,20 +281,23 @@ function TestimoniesArea() {
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
-              <span>Bruno Perrucho</span>
+              <span>
+                Nathália Arcurel
+                <span className="d-block fw-normal">35 anos</span>
+              </span>
             </p>
             <p>
-              “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Adipisci voluptatibus ab beatae eum nulla explicabo repudiandae
-              quis. At quos illum, eveniet veritatis quibusdam illo accusantium
-              adipisci reprehenderit fugit sapiente nulla!”
+              “Depois do segundo filho, meu metabolismo mudou completamente. A
+              Fernanda Souza me mostrou como respeitar meu novo corpo enquanto
+              atingia meus objetivos. Hoje não só emagreci, mas ganhei energia
+              para cuidar dos meus filhos e negócios!”
             </p>
           </div>
         </div>
-        <div className="cta-container">
+        <div className="cta-container mx-auto d-flex justify-content-center w-100">
           <button
             type="button"
-            className="main-cta-btn text-uppercase border-0 rounded-2 w-100 p-2 fw-bold"
+            className="main-cta-btn text-uppercase border-0 w-100 fw-bold"
             data-bs-target="#checkout-modal"
             data-bs-toggle="modal"
           >

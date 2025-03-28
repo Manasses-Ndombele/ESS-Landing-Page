@@ -1,16 +1,17 @@
 @use '../base'
 
-#whatsapp-btn
-    background-color: #00ff00
-    color: base.$tertiary-color
-    width: 3rem
-    height: 3rem
-    z-index: 1
-    @include base.tablet()
-        width: 4.5rem
-        height: 4.5rem
-
-    svg
-        font-size: 2em
+#whatsapp-btn-container
+    z-index: 3
+    #whatsapp-btn
+        background-color: #00ff00
+        color: base.$tertiary-color
+        width: 3rem
+        height: 3rem
         @include base.tablet()
-            font-size: 3em
+            width: 4.5rem
+            height: 4.5rem
+
+        svg
+            font-size: 2em
+            @include base.tablet()
+                font-size: 3em

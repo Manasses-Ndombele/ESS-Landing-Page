@@ -2,8 +2,23 @@
 
 div#top-clock
     background-color: base.$quinary-color
+    z-index: 3
+    @include base.tablet()
+        flex-direction: row !important
+        align-items: center !important
+        padding: 1rem !important
+        &.fixed
+            position: fixed
+            top: 0
+            left: 0
+            width: 100vw
+            svg
+                font-size: 1.5em
+
     svg
         font-size: 3em
 
     p
         font-size: 1.1em
+        @include base.tablet()
+            margin-bottom: 0px
