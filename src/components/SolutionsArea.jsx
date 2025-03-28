@@ -1,4 +1,7 @@
 import "../styles/components/solutions-area.sass";
+import cardOpt1 from "../assets/card-opt-1.jpg";
+import cardOpt2 from "../assets/card-opt-2.jpg";
+import cardOpt3 from "../assets/card-opt-3.jpg";
 
 function SolutionsArea() {
   return (
@@ -11,7 +14,7 @@ function SolutionsArea() {
       <div className="solutions-cards d-flex flex-column gap-3 mt-5">
         <div className="solution-card d-flex flex-column align-items-center py-2 px-4">
           <img
-            src="/card-opt-1.jpg"
+            src={cardOpt1}
             alt="Solução para emagrecer"
             className="rounded-circle"
           />
@@ -26,7 +29,7 @@ function SolutionsArea() {
         </div>
         <div className="solution-card d-flex flex-column align-items-center py-2 px-4">
           <img
-            src="/card-opt-2.jpg"
+            src={cardOpt2}
             alt="Solução para emagrecer"
             className="rounded-circle"
           />
@@ -41,7 +44,7 @@ function SolutionsArea() {
         </div>
         <div className="solution-card d-flex flex-column align-items-center py-2 px-4">
           <img
-            src="/card-opt-3.jpg"
+            src={cardOpt3}
             alt="Solução para emagrecer"
             className="rounded-circle"
           />

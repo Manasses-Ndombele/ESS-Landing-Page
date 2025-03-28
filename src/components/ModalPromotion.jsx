@@ -34,26 +34,27 @@ function ModalPromotion() {
               </h5>
             </div>
             <div className="modal-body">
-              <div className="info">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum earum odio veniam. Dolorum illum aspernatur quod
-                  temporibus vero. Eligendi similique ullam velit libero nostrum
-                  odit qui illum officiis tempora provident!
-                </p>
-                <p><span className="d-block fw-bold">25%</span> desconto agora</p>
-                <button
-                  type="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#checkout-modal"
-                  className="rounded-3 w-100 p-2 text-uppercase fw-bold"
-                >
-                  Comprar agora!
-                </button>
-              </div>
-              <div id="container-img">
-                <img src="/promotion.png" alt="Promoção do curso!" className="d-none" />
-              </div>
+              <p>
+                Fechar esta página agora é como desistir antes mesmo de começar!
+                O ‘Emagrecimento Sem Segredos’ já transformou milhares de vidas,
+                e você pode ser a próxima história de sucesso. Dê esse primeiro
+                passo – seu futuro eu vai agradecer!
+                <strong className="d-block mt-2">
+                  ✨ 👉 Clique no botão abaixo e garanta sua vaga com 25% de
+                  desconto por tempo limitado!
+                </strong>
+              </p>
+              <p>
+                <span className="d-block fw-bold">25%</span> desconto agora
+              </p>
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#checkout-modal"
+                className="rounded-3 w-100 p-2 text-uppercase fw-bold"
+              >
+                Comprar agora!
+              </button>
             </div>
           </div>
         </div>

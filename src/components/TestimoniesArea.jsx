@@ -1,5 +1,11 @@
 import "../styles/components/main-cta-btn.sass";
 import "../styles/components/testimonies-area.sass";
+import testimony1 from "../assets/testimony-1.jpg";
+import testimony2 from "../assets/testimony-2.jpg";
+import testimony3 from "../assets/testimony-3.jpg";
+import testimony4 from "../assets/testimony-4.jpg";
+import testimony5 from "../assets/testimony-5.jpg";
+import testimony6 from "../assets/testimony-6.jpg";
 
 function TestimoniesArea() {
   return (
@@ -18,7 +24,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-1.jpg"
+                    src={testimony1}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -39,7 +45,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-2.jpg"
+                    src={testimony2}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -61,7 +67,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-3.jpg"
+                    src={testimony3}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -82,7 +88,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-4.jpg"
+                    src={testimony4}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -102,7 +108,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-5.jpg"
+                    src={testimony5}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -123,7 +129,7 @@ function TestimoniesArea() {
               <div className="testimony-container rounded-3 p-3">
                 <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
                   <img
-                    src="/testimony-6.jpg"
+                    src={testimony6}
                     alt="Foto de um cliente satisfeito"
                     className="rounded-circle p-2"
                   />
@@ -185,7 +191,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-1.jpg"
+                src={testimony1}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
@@ -204,7 +210,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-2.jpg"
+                src={testimony2}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
@@ -223,7 +229,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-3.jpg"
+                src={testimony3}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
@@ -241,7 +247,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-4.jpg"
+                src={testimony4}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
@@ -259,7 +265,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-5.jpg"
+                src={testimony5}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />
@@ -277,7 +283,7 @@ function TestimoniesArea() {
           <div className="testimony-container rounded-3 p-3">
             <p className="testimony-header d-flex align-items-center gap-1 fw-bold">
               <img
-                src="/testimony-6.jpg"
+                src={testimony6}
                 alt="Foto de um cliente satisfeito"
                 className="rounded-circle p-2"
               />

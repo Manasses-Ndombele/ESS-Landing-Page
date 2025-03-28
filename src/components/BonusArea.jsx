@@ -1,4 +1,7 @@
 import "../styles/components/bonus-area.sass";
+import ebookCover1 from "../assets/ebook-cover-1.png";
+import ebookCover2 from "../assets/ebook-cover-2.png";
+import ebookCover3 from "../assets/ebook-cover-3.png";
 
 function BonusArea() {
   return (
@@ -9,7 +12,7 @@ function BonusArea() {
       </p>
       <div className="bonus-cards d-flex flex-column align-items-center gap-3">
         <div className="bonus-card d-flex flex-column align-items-center gap-3">
-          <img src="/ebook-cover-1.png" alt="Ebook de Bonus" />
+          <img src={ebookCover1} alt="Ebook de Bonus" />
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #1</h3>
             <p>
@@ -24,7 +27,7 @@ function BonusArea() {
           </div>
         </div>
         <div className="bonus-card d-flex flex-column align-items-center gap-3">
-          <img src="/ebook-cover-2.png" alt="Ebook de Bonus" />
+          <img src={ebookCover2} alt="Ebook de Bonus" />
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #2</h3>
             <p>
@@ -39,7 +42,7 @@ function BonusArea() {
           </div>
         </div>
         <div className="bonus-card d-flex flex-column align-items-center gap-3">
-          <img src="/ebook-cover-3.png" alt="Ebook de Bonus" />
+          <img src={ebookCover3} alt="Ebook de Bonus" />
           <div className="bonus-description">
             <h3 className="fw-bold text-center">BÔNUS #3</h3>
             <p>

@@ -1,11 +1,13 @@
 import "../styles/components/main-cta-btn.sass";
 import "../styles/components/video-cta.sass";
+import state1 from "../assets/state-1.png";
+import state2 from "../assets/state-2.png";
 
 function VideoCTA() {
   return (
     <div className="video-cta position-relative p-4">
       <img
-        src="/state-1.png"
+        src={state1}
         alt="Estado 1 gorda"
         className="position-absolute"
       />
@@ -20,7 +22,7 @@ function VideoCTA() {
         className="w-100 pb-4"
       ></iframe>
       <img
-        src="/state-2.png"
+        src={state2}
         alt="Estado 2 magra"
         className="position-absolute"
       />

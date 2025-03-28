@@ -3,6 +3,10 @@ import { MdClose } from "react-icons/md";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import "../styles/components/modal-checkout.sass";
+import visaFlag from "../assets/visa-flag.png";
+import mastercardFlag from "../assets/mastercard-flag.png";
+import americanExpressFlag from "../assets/american-express-flag.png";
+import paypalFlag from "../assets/paypal-flag.png";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required("Este campo é obrigatório!"),
@@ -123,13 +127,13 @@ function ModalCheckout() {
                     name="card_number"
                   />
                   <section className="d-grid justify-content-center mt-2">
-                    <img src="/visa-flag.png" className="" alt="Visa" />
-                    <img src="/mastercard-flag.png" alt="Mastercard" />
+                    <img src={visaFlag} className="" alt="Visa" />
+                    <img src={mastercardFlag} alt="Mastercard" />
                     <img
-                      src="/american-express-flag.png"
+                      src={americanExpressFlag}
                       alt="American Express"
                     />
-                    <img src="/paypal-flag.png" alt="PayPal" />
+                    <img src={paypalFlag} alt="PayPal" />
                   </section>
                 </div>
                 <div className="mb-3">

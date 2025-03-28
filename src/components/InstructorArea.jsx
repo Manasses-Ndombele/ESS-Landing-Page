@@ -1,4 +1,5 @@
 import "../styles/components/instructor-area.sass";
+import instructorPhoto from "../assets/instructor-xl.png";
 
 function InstructorArea() {
   return (
@@ -6,7 +7,7 @@ function InstructorArea() {
       id="instructor-area"
       className="p-3 d-flex flex-column align-items-center gap-3 my-4"
     >
-      <img src="/instructor-xl.png" alt="Instrutora do curso" />
+      <img src={instructorPhoto} alt="Instrutora do curso" />
       <div id="instructor-history">
         <h2 className="fw-bold">QUEM SOU EU?</h2>
         <p>
