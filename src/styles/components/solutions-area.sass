@@ -29,7 +29,7 @@
             justify-content: space-around
 
         @include base.Tv()
-            width: 80%
+            max-width: 1100px
 
         .solution-card
             @include base.laptop()
@@ -47,6 +47,7 @@
                 height: 15rem
 
             .solution-description
+                max-width: 480px
                 h3
                     @include base.montserrat()
                     color: base.$primary-color

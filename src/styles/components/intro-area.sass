@@ -13,9 +13,13 @@
 
     .slogan
         @include base.open-sans()
+        @include base.desktop()
+            max-width: 1100px
 
         strong
             background-color: base.$quinary-color
 
     .intro
         font-size: 1.5em
+        @include base.desktop()
+            max-width: 1100px

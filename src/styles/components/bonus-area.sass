@@ -1,6 +1,13 @@
 @use '../base'
 
 #bonus-area
+    @include base.laptop()
+        max-width: 900px
+        margin: 0 auto
+
+    @include base.desktop()
+        max-width: 100%
+
     h2
         @include base.montserrat()
         color: base.$primary-color
@@ -30,9 +37,11 @@
             width: 80%
 
         .bonus-card
+            max-width: 400px
             @include base.laptop()
                 flex-direction: row !important
                 align-items: start !important
+                max-width: 100%
 
             @include base.desktop()
                 flex-direction: column !important
